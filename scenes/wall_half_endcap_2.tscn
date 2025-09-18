@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://shs8fdk0icu5"]
+
+[ext_resource type="PackedScene" uid="uid://cefbfmd6kf821" path="res://models/building/wall_half_endcap.glb" id="1_itpbt"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_tfyd2"]
+points = PackedVector3Array(-2, 0, -0.5, 0, 0, -0.5, -2, 0, 0.499902, -2, 4, -0.5, 0, 0, 0.499902, 0, 4, -0.5, -2, 4, 0.499902, 0, 4, 0.499902)
+
+[node name="wall_half_endcap2" type="StaticBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("ConvexPolygonShape3D_tfyd2")
+
+[node name="wall_half_endcap2" parent="." instance=ExtResource("1_itpbt")]

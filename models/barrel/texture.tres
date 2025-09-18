@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://cxipfuv75jtc1"]
+
+[ext_resource type="Texture2D" uid="uid://bipd6th83f1ka" path="res://models/barrel/dungeon_texture.png" id="1_fofj7"]
+
+[resource]
+resource_name = "texture"
+albedo_texture = ExtResource("1_fofj7")
+roughness = 0.45

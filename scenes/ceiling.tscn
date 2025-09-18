@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dof31oaep7q5g"]
+
+[ext_resource type="PackedScene" uid="uid://idbo1q1upwwp" path="res://models/building/ceiling.glb" id="1_ji6l1"]
+
+[node name="ceiling" type="Node3D"]
+
+[node name="ceiling" parent="." instance=ExtResource("1_ji6l1")]
